@@ -7,8 +7,7 @@
   * [Change mysql_backup.sh script](https://github.com/gonjumixproject/Robust_IPTV#change-mysql_backupsh-script)
 - [ToDo](https://github.com/gonjumixproject/Robust_IPTV#todo)
 
-
-* Methods 
+* [Methods]()
 * * INVITE
 * * REGISTER 
 * * CANCEL
@@ -22,3 +21,4 @@
 * * INFO
 * * PRACK
 * * UPDATE
+
