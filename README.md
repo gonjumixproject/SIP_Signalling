@@ -1,8 +1,11 @@
 #  Sip Signalling Part 1 
-# Client-Server Model / SIP Requests / SIP Responses / SIP Header Fields
 
+# Client-Server Model 
 
 - [SIP Clients and Server]()
+
+# SIP Requests 
+
 - [SIP Request Message]()
   * [Methods]()
   * * [INVITE]()
@@ -18,7 +21,11 @@
   * * [INFO]()
   * * [PRACK]()
   * * [UPDATE]()
-- [SIP Response Message]()
+  
+
+# SIP Responses 
+
+ [SIP Response Message]()
  * [Informational]()
  * * []()
  * * []()
@@ -43,5 +50,7 @@
 * * []()
 * * []()
 * * []()
+
+# SIP Header Fields
+
 - [SIP Header Fields]()
-- 
