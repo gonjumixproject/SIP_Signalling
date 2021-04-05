@@ -91,7 +91,6 @@ SIP is a client-server protocol of equipotent peers.
 
 - [x] What is Client-Server
 - [ ] Add images
-- [ ] Open a pull request
 <pre>
 The client component requests services from the server.
 
@@ -110,8 +109,8 @@ User Agent Server (UAS) : Responds to the requests.
 # Requests
 
 - [x] Requests
-- [ ] Methods
-- [ ] Add Methods
+- [x] Methods
+- [x] Add Methods
 - [ ] Create images
 - [ ] Add images
 
@@ -138,16 +137,14 @@ SIP/2.0 : SIP-Version
 </pre>
 ## Methods 
 
-- []Add an image for INVITE
-- [ ] Add a reference for further more
-
 ### INVITE
 <pre>
 The INVITE method is used to establish media sessions between user agents.
 </pre>
 ### REGISTER
 
-
+- [ ] Add an image for INVITE
+- [ ] Add a reference for further more
 - [ ] Add image for CANCEL
 - [ ] Add image for BYE
 - [ ] Add image for ACK
