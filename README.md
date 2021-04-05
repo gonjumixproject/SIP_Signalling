@@ -17,7 +17,6 @@
   * * [REFER]()
   * * [SUBSCRIBE]()
   * * [NOTIFY]()
-  * * [MESSAGE ]()
   * * [INFO]()
   * * [PRACK]()
   * * [UPDATE]()
