@@ -102,7 +102,7 @@ Clients and servers exchange messages in a request–response messaging pattern.
 
 </pre>
 
-# What is User Agent / User Agent Client (UAC) / User Agent Server (UAS)
+## What is User Agent / User Agent Client (UAC) / User Agent Server (UAS)
 <pre>
 User Agent : A user agent represents an end system. It can be either user agent client or user agent server.
 User Agent Client (UAC) : Generates requests.
@@ -143,7 +143,7 @@ This specification defines six methods:
  REGISTER for registering contact information, INVITE, ACK, and CANCEL for setting up sessions, BYE for terminating sessions, and OPTIONS for querying servers about their capabilities. 
 </pre>
 
-## INVITE
+### INVITE
 The INVITE method is used to establish media sessions between user agents.
 
 
