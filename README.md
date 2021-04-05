@@ -102,6 +102,12 @@ Clients and servers exchange messages in a request–response messaging pattern.
 
 </pre>
 
+# What is User Agent / User Agent Client (UAC) / User Agent Server (UAS)
+<pre>
+User Agent : A user agent represents an end system. It can be either user agent client or user agent server.
+User Agent Client (UAC) : Generates requests.
+User Agent Server (UAS) : Responds to the requests.  
+</pre>
 # Requests
 
 - [x] Requests
@@ -133,4 +139,11 @@ SIP/2.0 : SIP-Version
 </pre>
 ## Methods 
 <pre>
-This specification defines six methods: REGISTER for registering contact information, INVITE, ACK, and CANCEL for setting up sessions, BYE for terminating sessions, and OPTIONS for querying servers about their capabilities.  SIP extensions, documented in standards track RFCs, may define additional methods.</pre>
+This specification defines six methods:
+ REGISTER for registering contact information, INVITE, ACK, and CANCEL for setting up sessions, BYE for terminating sessions, and OPTIONS for querying servers about their capabilities. 
+</pre>
+
+## INVITE
+The INVITE method is used to establish media sessions between user agents.
+
+
