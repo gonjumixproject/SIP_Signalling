@@ -1,46 +1,44 @@
 #  Sip Signalling Part 1 
 
-# Client-Server Model 
-
-- [SIP Clients and Server]()
-
-# SIP Requests 
-
+- [What is SIP]()
+- [What is Client-Server architecture]()
+* [What is User Agent / User Agent Client (UAC) / User Agent Server (UAS)]()
+- [What are the Message Transport Layers ?]()
+* [TCP]()
+* [UDP]()
+* [TLS]()
+* [SCTP]()
 - [SIP Request Message]()
-  * [Methods]()
-  * * [INVITE]()
-  * * [REGISTER ]()
-  * * [CANCEL]()
-  * * [BYE ]()
-  * * [ACK ]()
-  * * [OPTIONS ]()
-  * * [REFER]()
-  * * [SUBSCRIBE]()
-  * * [NOTIFY]()
-  * * [INFO]()
-  * * [PRACK]()
-  * * [UPDATE]()
-  
-
-# SIP Responses 
-
- [SIP Response Message]()
- * [Informational]()
- * * []()
- * * []()
- * * []()
- * * []()
- * * []()
- * [Success]()
- * * []()
- * * []()
+* [Methods]()
+* * [INVITE]()
+* * [REGISTER ]()
+* * [CANCEL]()
+* * [BYE ]()
+* * [ACK ]()
+* * [OPTIONS ]()
+* * [REFER]()
+* * [SUBSCRIBE]()
+* * [NOTIFY]()
+* * [INFO]()
+* * [PRACK]()
+* * [UPDATE]()
+- [SIP Response Message]()
+* [Informational]()
+* * []()
+* * []()
+* * []()
+* * []()
+* * []()
+* [Success]()
+* * []()
+* * []()
 * [Redirection]()
- * * []()
- * * []()
- * [Client Error]()
- * * []()
- * * []()
- * * []()
+* * []()
+* * []()
+* [Client Error]()
+* * []()
+* * []()
+* * []()
 * [Server Error]()
 * * []()
 * * []()
@@ -49,12 +47,8 @@
 * * []()
 * * []()
 * * []()
-
-# SIP Header Fields
-
 - [SIP Header Fields]()
-
-# Basic Call Flows
+- [Basic Call Flows]()
 
 
 # Introduction to everthing
@@ -63,7 +57,7 @@ This part of the project covers SIP Understanding the Session Initiation Protoco
 Best Materials about the SIP and VOIP network;
 
 * SIP Understanding the Session Initiation Protocol book (author Alan B. Johnston)
-* RFC 3261 
+* [RFC 3261](https://tools.ietf.org/html/rfc3261)
 * [Eli the Computer Guy VOIP series](https://www.youtube.com/watch?v=2x3Ie6VZ_sg&list=PLUz96g7K7QmkOOnUkzUkvT8RcFpP08oE0)
 
 # What is SIP
