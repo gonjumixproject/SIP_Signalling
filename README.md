@@ -90,4 +90,47 @@ SIP is a client-server protocol of equipotent peers.
 </pre>
 # What is Client-Server architecture
 
+- [x] What is Client-Server
+- [ ] Add images
+- [ ] Open a pull request
+<pre>
+The client component requests services from the server.
 
+The server component provides a function or service to one or many clients, which initiate requests for such services. Servers are classified by the services they provide.
+
+Clients and servers exchange messages in a request–response messaging pattern. The client sends a request, and the server returns a response.This exchange of messages is an example of inter-process communication. To communicate, the computers must have a common language, and they must follow rules so that both the client and the server know what to expect. The language and rules of communication are defined in a communications protocol. In this case, our communication protocol is SIP.
+
+</pre>
+
+# Requests
+
+- [x] Requests
+- [ ] Methods
+- [ ] Add Methods
+- [ ] Create images
+- [ ] Add images
+
+<pre>
+This chapter is created by using the RFC 3261. 
+
+Request is a SIP message sent from a client to a server, for the purpose of invoking a particular operation.
+
+SIP requests are distinguished by having a Request-Line for a start-line.
+
+         Request-Line  =  Method SP Request-URI SP SIP-Version CRLF
+
+A Request-Line contains a method name, a Request-URI, and the  protocol version separated by a single space (SP) character.
+
+Example of a Request-Line:
+
+INVITE sip:watson@bell-telephone.com SIP/2.0
+
+In this below example;
+
+INVITE : Method name
+sip:watson@bell-telephone.com : Request-URI
+SIP/2.0 : SIP-Version
+</pre>
+## Methods 
+<pre>
+This specification defines six methods: REGISTER for registering contact information, INVITE, ACK, and CANCEL for setting up sessions, BYE for terminating sessions, and OPTIONS for querying servers about their capabilities.  SIP extensions, documented in standards track RFCs, may define additional methods.</pre>
